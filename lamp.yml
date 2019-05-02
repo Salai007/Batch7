@@ -1,0 +1,23 @@
+test file
+hosts:localhost
+connection:ssh
+become:true
+tasks
+name: Install http
+name:Install php
+yum
+   name:php
+state:present
+
+yum
+   name:http
+state:one
+
+name:start http
+service:
+        name:htttp
+       state:started
+ name:enamble http
+service:
+        name:http
+state:enable 
