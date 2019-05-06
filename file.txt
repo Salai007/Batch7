@@ -1,1 +1,3 @@
-From master:this is line 1
+
+This file is written in DEV branch line 1
+>>>>>>> dev
