@@ -2,3 +2,4 @@ default
 invent=host
 java = java1.7
 python
+ssh_host_name=ec2_user
